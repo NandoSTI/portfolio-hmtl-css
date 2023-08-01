@@ -1,0 +1,13 @@
+:root{
+    --text-white: #ffffff;
+    --text-subtitles-paragraph: #cfc3c3;
+    --title-main-links-white: #ffffff;
+}
+
+:root{
+    --font-main: 'Poppins', sans-serif;
+    --font-tile-giga: 4.5rem;
+    --font-title-great: 3rem;
+    --font-sub-title: 2.4rem;
+    --font-paragraph: 1.6rem;
+}

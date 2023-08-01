@@ -1,0 +1,28 @@
+.about{
+    display: flex;
+}
+
+.about .information-about p{
+    font-size: 2rem;
+    font-weight: 400;
+    color: var( --text-subtitles-paragraph);
+    line-height: 40px;
+}
+
+@media(max-width: 425px){
+    .about .section-title{
+        padding: 0px;
+    }
+    .about .section-title h2{
+        letter-spacing: 10px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .about .information-about p{
+        text-align: center;
+        line-height: 35px;
+        font-size: 1.6rem;
+        padding: 40px;
+    }
+
+}
