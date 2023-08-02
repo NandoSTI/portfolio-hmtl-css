@@ -1,12 +1,21 @@
-.about{
-    display: flex;
+.about .section-title h2{
+    font-weight: 400;
+    letter-spacing: 10px;
+    padding-top: 70px;
 }
 
 .about .information-about p{
     font-size: 2rem;
     font-weight: 400;
     color: var( --text-subtitles-paragraph);
-    line-height: 40px;
+    line-height: 50px;
+}
+
+@media(max-width: 768px){
+    .about .information-about{
+        padding: 40px;
+        text-align: center;
+    }
 }
 
 @media(max-width: 425px){
@@ -20,9 +29,10 @@
     }
     .about .information-about p{
         text-align: center;
+        letter-spacing: 2ox;
         line-height: 35px;
-        font-size: 1.6rem;
-        padding: 40px;
+        font-size: 1.4rem;
+        padding: 10px;
     }
 
 }

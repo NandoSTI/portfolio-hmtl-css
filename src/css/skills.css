@@ -1,0 +1,48 @@
+.skills .container-skills{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.skills .section-title h2{
+    font-weight: 400;
+    padding-top: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 130px;
+}
+
+.skills .container-skills .logo i{
+    color: var(--text-subtitles-paragraph);
+    font-size: 70px;
+    transition: all .3s ease-in-out;
+}
+
+.skills .container-skills .logo i:hover{
+    color: var(--hover-icon);
+}
+
+@media(max-width: 768px){
+    .logo{
+        width: 20%;
+    }
+
+    .skills .container-skills{
+        gap: 30px;
+    }
+}
+
+@media(max-width: 425px){
+    .skills .section-title h2{
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .logo{
+        width: 40%;
+    }
+
+    .skills .container-skills{
+        gap: 30px;
+    }
+}

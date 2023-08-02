@@ -30,12 +30,13 @@
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/home.css" />
     <link rel="stylesheet" href="src/css/about.css" />
+    <link rel="stylesheet" href="src/css/skills.css">
     <title>
       Fernando Soares Mendes | Desenvolvedor Web Frontend | Portfólio
     </title>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <div class="row justify-content-space-between align-items-center">
           <h1 class="name name-shadow">Fernando Soares Mendes</h1>
@@ -49,7 +50,7 @@
             <ul>
               <li><a href="#home">Home</a></li>
               <li><a href="#about">Sobre</a></li>
-              <li><a href="#skills">Habilidades</a></li>
+              <li><a href="#skills">Tecnologias</a></li>
               <li><a href="#projects">Projetos</a></li>
             </ul>
           </nav>
@@ -64,13 +65,14 @@
             <h2>Fernando Soares Mendes</h2>
             <h3>Desenvolvedor Web Frontend</h3>
             <div class="social">
-              <a
+              <a target="_blank"
                 href="https://www.linkedin.com/in/fernandomendesti/"
                 class="autor-shadow"
               >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="https://github.com/NandoSTI" class="autor-shadow">
+              <a target="_blank"
+              href="https://github.com/NandoSTI" class="autor-shadow">
                 <i class="fab fa-github"></i>
               </a>
               <a href="#" class="autor-shadow">
@@ -114,17 +116,64 @@
         </div>
       </div>
     </section>
-    <section class="skills section" id="skills"></section>
-    <section class="projects section" id="projects"></section>
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Tecnologias</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-skills">
+          <div class="logo">
+            <i class="devicon-html5-plain-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon-css3-plain-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain"></i>
+          </div>
+          <div class="logo"> 
+            <i class="devicon-git-plain-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon-github-original-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon-vuejs-plain-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon-bootstrap-plain-wordmark"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon-amazonwebservices-plain-wordmark"></i>
+          </div>
+      </div>
+    </section>
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Projetos</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container-ptojects">
+        <div class="project">
+          <a href="#">
+            <img src="https://via.placeholder.com/515x700" alt="Nome do projeto">
+            <h3>Projeto 1</h3>
+            <div class="information-project">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis corporis labore, laudantium sed, illum repellendus adipisci in ut voluptatibus, at libero repudiandae pariatur ea velit quas ipsam fuga commodi!
+              </p>
+              <p><i class="fa-regular fa-link fa-beat-fade"></i>Ver no Github Pages</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
-<!-- <div class="row">
-          <div class="about-image">
-            <div class="img-box inner-shadow">
-              <img
-                src="src/image/imggithub.jpeg"
-                alt="imagem do autor do portfólio"
-                class="autor-shadow"
-              />
-            </div>
-</div> -->
+
