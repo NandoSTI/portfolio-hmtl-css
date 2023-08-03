@@ -17,6 +17,9 @@
     color: var(--text-subtitles-paragraph);
     font-size: 70px;
     transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
 }
 
 .skills .container-skills .logo i:hover{
