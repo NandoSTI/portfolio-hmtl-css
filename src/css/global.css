@@ -121,12 +121,10 @@ ul li a{
     }
 }
 
-
 .tracking-in-expand {
 	-webkit-animation: tracking-in-expand 1s ease-in-out both;
 	animation: tracking-in-expand 1s ease-in-out both;
 }
-
 
  @-webkit-keyframes tracking-in-expand {
     0% {
@@ -141,12 +139,10 @@ ul li a{
     }
   }
 
-
   #about:target .slide-in-top {
 	-webkit-animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-in-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
 
  @-webkit-keyframes slide-in-top {
     0% {
@@ -161,7 +157,6 @@ ul li a{
     }
   }
 
-  
 #skills:target .slide-in-top-skills {
     -webkit-animation: slide-in-top-skills 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	animation: slide-in-top-skills 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
