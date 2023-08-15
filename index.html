@@ -23,6 +23,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="src/image/imggithub.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="src/css/fontawesome.css" />
     <link rel="stylesheet" href="src/css/reset.css" />
     <link rel="stylesheet" href="src/css/variable.css" />
@@ -30,17 +31,16 @@
     <link rel="stylesheet" href="src/css/header.css" />
     <link rel="stylesheet" href="src/css/home.css" />
     <link rel="stylesheet" href="src/css/about.css" />
-    <link rel="stylesheet" href="src/css/skills.css">
-    <link rel="stylesheet" href="src/css/projects.css">
-    <title>
-      Fernando Soares Mendes | Desenvolvedor Web Frontend | Portfólio
-    </title>
+    <link rel="stylesheet" href="src/css/skills.css" />
+    <link rel="stylesheet" href="src/css/projects.css" />
+    <link rel="stylesheet" href="src/css/footer.css" />
+    <title>Fernando Soares Mendes | Desenvolvedor Web Frontend</title>
   </head>
   <body>
-    <header class="header" id="home">
+    <header class="header">
       <div class="container">
-        <div class="row justify-content-space-between align-items-center">
-          <h1 class="name name-shadow">Fernando Soares Mendes</h1>
+        <div class="row justify-content-space-between">
+          <h1 class="name">Olá, seja bem vindo!</h1>
           <nav>
             <input id="menu-hamburguer" type="checkbox" />
             <label for="menu-hamburguer">
@@ -53,161 +53,244 @@
               <li><a href="#about">Sobre</a></li>
               <li><a href="#skills">Tecnologias</a></li>
               <li><a href="#projects">Projetos</a></li>
+              <li><a href="#footer">Contato</a></li>
             </ul>
           </nav>
         </div>
       </div>
     </header>
-    <section class="home">
+    <section class="home" id="home">
       <div class="container">
-        <div class="row full-screen align-items-center">
-          <div class="text-home">
-            <p>Olá, seja bem vindo!</p>
+        <div class="row">
+          <div class="text-home" >
             <h2>Fernando Soares Mendes</h2>
-            <h3>Desenvolvedor Web Frontend</h3>
+            <h3 class="tracking-in-expand">Desenvolvedor Web Frontend</h3>
             <div class="social">
-              <a target="_blank"
+              <a
+                target="_blank"
                 href="https://www.linkedin.com/in/fernandomendesti/"
                 class="autor-shadow"
               >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a target="_blank"
-              href="https://github.com/NandoSTI" class="autor-shadow">
+              <a
+                target="_blank"
+                href="https://github.com/NandoSTI"
+                class="autor-shadow"
+              >
                 <i class="fab fa-github"></i>
               </a>
-              <a href="#" class="autor-shadow">
+              <a
+                target="_blank"
+                href="https://wa.me/5586995540143"
+                class="autor-shadow"
+              >
                 <i class="fab fa-whatsapp"></i>
               </a>
-              <a href="#" class="autor-shadow">
+              <a
+                target="_blank"
+                href="mailto:soaresmendes48@gmail.com"
+                class="autor-shadow"
+              >
                 <i class="fa-regular fa-envelope"></i>
               </a>
             </div>
-          </div>
-          <div class="img-home">
-            <div class="img-box">
-              <img
-                src="src/image/imggithub.jpeg"
-                alt="imagem do autor do portfólio"
-                class="autor-shadow"
-              />
-            </div>
+            <a
+              href="https://drive.google.com/file/d/1PPWBQXRmFVPfhcshzr_Bts7jPMeCm1-7/view?usp=drive_link"
+              class="btn"
+              target="_blank"
+              >Download CV PDF
+            </a>
           </div>
         </div>
       </div>
     </section>
     <section class="about section" id="about">
-      <div class="container ">
+      <div class="container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
         <div class="row">
           <div class="section-title">
             <h2>Sobre</h2>
           </div>
         </div>
-          <div class="information-about">
-            <p>
-              Olá! Sou um <strong>Desenvolvedor Web Frontend</strong> , e
-              atualmente estou trilhando o caminho para o backend. Minha paixão
-              por tudo relacionado à área de TI é o que impulsiona minha jornada
-              para o sucesso neste nicho em constante evolução. Sempre fui
-              fascinado por tecnologia e sua capacidade de transformar a vida
-              das pessoas. Agradeço por visitar meu portfólio e me coloco a sua
-              disposição. Aguardo seu contato.
-            </p>
-          </div>
+        <div class="information-about">
+          <div class="stars"></div>
+          <div class="stars2"></div>
+          <p class="slide-in-top">
+            Olá! Sou um <strong>Desenvolvedor Web Frontend</strong> , e
+            atualmente estou trilhando o caminho para o backend. Minha paixão
+            por tudo relacionado à área de TI é o que impulsiona minha jornada
+            para o sucesso neste nicho em constante evolução. Sempre fui
+            fascinado por tecnologia e sua capacidade de transformar a vida das
+            pessoas. Agradeço por visitar meu portfólio e estou à sua
+            disposição. Aguardo seu contato.
+          </p>
         </div>
       </div>
     </section>
     <section class="skills section" id="skills">
       <div class="container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
         <div class="row">
           <div class="section-title">
             <h2>Tecnologias</h2>
           </div>
         </div>
       </div>
-      <div class="container-skills">
-          <div class="logo">
-            <i class="devicon-html5-plain-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon-css3-plain-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain"></i>
-          </div>
-          <div class="logo"> 
-            <i class="devicon-git-plain-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon-github-original-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon-vuejs-plain-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon-bootstrap-plain-wordmark"></i>
-          </div>
-          <div class="logo">
-            <i class="devicon-amazonwebservices-plain-wordmark"></i>
-          </div>
+      <div class="stars"></div>
+      <div class="stars2"></div>
+      <div class="container-skills slide-in-top-skills">
+        <div class="logo">
+          <i class="devicon-html5-plain-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-css3-plain-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon devicon-javascript-plain"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-git-plain-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-github-original-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-vuejs-plain-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-bootstrap-plain-wordmark"></i>
+        </div>
+        <div class="logo">
+          <i class="devicon-amazonwebservices-plain-wordmark"></i>
+        </div>
       </div>
     </section>
     <section class="projects section" id="projects">
       <div class="container">
+        <div class="stars"></div>
+        <div class="stars2"></div>
         <div class="row">
           <div class="section-title">
             <h2>Projetos</h2>
           </div>
         </div>
       </div>
-      <div class="container-projects container">
+      <div class="container-projects container slide-in-top-projects">
         <div class="project">
-          <a href="#">
-            <img src="https://via.placeholder.com/300x400" alt="Nome do projeto">
+          <a
+            target="_blank"
+            href="https://nandosti.github.io/landing-page-huddle/"
+          >
+            <img
+              src="./src/image/mobile-design.jpg"
+              alt="landing page huddle"
+            />
             <div class="information-project">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis corporis labore, laudantium sed, illum repellendus adipisci in ut voluptatibus, at libero repudiandae pariatur ea velit quas ipsam fuga commodi!
+                Landing page huddle é um desafio do Frontend Mentor feito com
+                HTML e CSS. Esse projeto, apresar de ser uma landing page, traz
+                elementos de nível avançado nessas linguagens. Obrigado por
+                chegar até aqui. Confira o código.
               </p>
-              <p>Ver no Github Pages</p>
+              <p>🔗 Ver no Github Pages</p>
             </div>
           </a>
         </div>
         <div class="project">
-          <a href="#">
-            <img src="https://via.placeholder.com/300x400" alt="Nome do projeto">
+          <a
+            target="_blank"
+            href="https://nandosti.github.io/interactive-rating-main/"
+          >
+            <img
+              src="./src/image/mobile-design-js.jpg"
+              alt="interactive-rating-main"
+            />
             <div class="information-project">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis corporis labore, laudantium sed, illum repellendus adipisci in ut voluptatibus, at libero repudiandae pariatur ea velit quas ipsam fuga commodi!
+                Interactive rating component é um desafio do Frontend Mentor
+                feito com HTML, CSS e Javascript. Obrigado por chegar até aqui.
+                Confira o código no meu repositório do Github.
               </p>
-              <p>Ver no Github Pages</p>
+              <p>🔗 Ver no Github Pages</p>
             </div>
           </a>
         </div>
         <div class="project">
-          <a href="#">
-            <img src="https://via.placeholder.com/300x400" alt="Nome do projeto">
+          <a
+            target="_blank"
+            href="https://nandosti.github.io/cadastro-marca-produto/"
+          >
+            <img
+              src="./src/image/marca-produto.png"
+              alt="cadastro marca produto"
+            />
             <div class="information-project">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis corporis labore, laudantium sed, illum repellendus adipisci in ut voluptatibus, at libero repudiandae pariatur ea velit quas ipsam fuga commodi!
+                Projeto desenvolvido com a tecnologia VUE 3, HTML5 e CSS3. Nesse
+                sistema poderá ser cadastrado várias marcas e, a partir do
+                cadastro dessas marcas, escolher uma das marcas para continuar o
+                cadastro de um produto. Obrigado por visitar essa página.
               </p>
-              <p>Ver no Github Pages</p>
+              <p>🔗 Ver no Github Pages</p>
             </div>
           </a>
         </div>
         <div class="project">
-          <a href="#">
-            <img src="https://via.placeholder.com/300x400" alt="Nome do projeto">
+          <a target="_blank" href="https://projeto-site-khaki.vercel.app/">
+            <img src="./src/image/hardman.png" alt="Nome do projeto" />
             <div class="information-project">
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi veritatis corporis labore, laudantium sed, illum repellendus adipisci in ut voluptatibus, at libero repudiandae pariatur ea velit quas ipsam fuga commodi!
+                Projeto desenvolvido com Javascript, HTML e CSS. Consiste em um
+                site de escritório de advocacia inspirado na série Pearson
+                Hardman. Destaco vários elementos interessantes em javascript
+                como o uso do DOM. Obrigado por visitar essa página.
               </p>
-              <p>Ver no Github Pages</p>
+              <p>🔗 Ver no Github Pages</p>
             </div>
           </a>
         </div>
       </div>
     </section>
+    <section class="footer" id="footer">
+      <div class="container slide-in-top-footer">
+        <div class="social">
+          <h2>Entre em contato:</h2>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/fernandomendesti/"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/NandoSTI"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+          <a
+            target="_blank"
+            href="https://wa.me/5586995540143"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a
+            target="_blank"
+            href="mailto:soaresmendes48@gmail.com"
+          >
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1PPWBQXRmFVPfhcshzr_Bts7jPMeCm1-7/view?usp=drive_link"
+          class="btn"
+          target="_blank"
+          >Download CV PDF
+        </a>
+        <p class="copy">2023&copy;todos os direitos reservados</p>
+      </div>
+    </section>
   </body>
 </html>
-
-style

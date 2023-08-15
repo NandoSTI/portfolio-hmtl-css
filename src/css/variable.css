@@ -1,9 +1,15 @@
 :root{
     --text-white: #ffffff;
     --text-subtitles-paragraph: #cfc3c3;
-    --title-main-links-white: #ffffff;
     --hover-icon: #7158e2;
     --background-menu:#525252;
+    --background-footer:#2e2828;
+    --bg-header: #130f40;
+    --header-border-bottom: #1c1752;
+    --bg-color: #1f242d;
+    --second-bg-color: #233946;
+    --main-color: #f0932b;
+    --bg-gradient: linear-gradient(0, #120c56, #000000);
 }
 
 :root{
