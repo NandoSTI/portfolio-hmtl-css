@@ -16,15 +16,15 @@
 
 #### Tela Desktop
 
-<img src="./src/img/deskto.png" alt="Tela desktop exibindo funcionalidades">
+<img src="./src/image/mps-desktop.gif" alt="Tela desktop exibindo funcionalidades">
 
 #### Tela Ipad
 
-<img src="./src/img/ipd.png" alt="Tela tablet exibindo funcionalidades">
+<img src="./src/image/mps-ipad.gif" alt="Tela tablet exibindo funcionalidades">
 
 #### Tela Mobile
 
-<img src="./src/img/mobie.png" alt="Exibindo responsividade no mobile">
+<img src="./src/image/mps-mobile.gif" alt="Exibindo responsividade no mobile">
 
 ### Links
 
