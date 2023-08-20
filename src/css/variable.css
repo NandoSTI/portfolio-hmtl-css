@@ -1,18 +1,10 @@
 :root{
     --text-white: #ffffff;
-    --text-subtitles-paragraph: #cfc3c3;
+    --skills: #cfc3c3;
     --bg-header: #130f40;
     --header-border-bottom: #1c1752;
     --bg-color: #1f242d;
     --second-bg-color: #233946;
     --main-color: #f0932b;
     --bg-gradient: linear-gradient(0, #120c56, #000000);
-}
-
-:root{
-    --font-main: 'Poppins', sans-serif;
-    --font-tile-giga: 4.5rem;
-    --font-title-great: 3rem;
-    --font-sub-title: 2.4rem;
-    --font-paragraph: 1.6rem;
 }

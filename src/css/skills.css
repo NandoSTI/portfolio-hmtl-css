@@ -48,7 +48,7 @@
 }
 
 .skills .container-skills .logo i:hover{
-    color: var(--text-subtitles-paragraph);
+    color: var(--skills);
 }
 
 @media(max-width: 768px){

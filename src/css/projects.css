@@ -37,7 +37,6 @@
     font-size: 15px;
     line-height: 30px;
     text-decoration: none;
-    color: var(--text-white);
     width: 100%;
 }
 
@@ -62,8 +61,6 @@
     border-radius: 5px;
     width: 100%;
     height: auto;
-    max-width: 300px;
-    max-height: 400px;
 }
 
 .projects .container-projects .project{
